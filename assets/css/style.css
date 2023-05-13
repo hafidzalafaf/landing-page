@@ -1474,6 +1474,29 @@ label {
   }
 }
 
+#about .icon-wrap{
+	width: 52px;
+	height: 52px;
+	border-radius: 100%;
+	background: rgba(0, 196, 244, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+}
+
+#about .icon-wrap i{
+	color: #fff;
+}
+
+#about .sub-title{
+	color: #fff;
+	font-size: 22px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    text-transform: none;
+}
+
 /* 8. Choose */
 .choose-area .row {
 	margin: 0 -10px;
