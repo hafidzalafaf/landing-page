@@ -38,7 +38,7 @@
 	padding-left: 35px;
 }
 .navbar-wrap ul li {
-	margin-right: 40px;
+	margin-right: 30px;
 }
 .logo img {
 	max-height: 65px;
@@ -77,7 +77,7 @@
 	min-width: 160px;
 }
 .chart-wrap {
-	padding: 50px 35px 50px;
+	padding: 20px 35px 20px;
 }
 .about-content {
 	margin-left: 55px;
@@ -725,8 +725,8 @@
 	font-size: 15px;
 }
 .team-item .team-thumb::before {
-	width: 210px;
-	height: 210px;
+	width: 230px;
+	height: 230px;
 }
 
 

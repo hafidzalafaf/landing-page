@@ -357,7 +357,7 @@ function wowAnimation() {
 }
 
 /*=============================================
-	=         Road Map           =
+	=         header          =
 =============================================*/
 
 window.addEventListener("scroll", (e) => {
@@ -367,6 +367,23 @@ window.addEventListener("scroll", (e) => {
 		$('#header').removeClass('dark');
 	}
 })
+
+/*=============================================
+	=         tab founding-content / token          =
+=============================================*/
+$('#funding-tab').on('click',function() {
+	$('#founding-content').removeClass('hide-tab');
+	$('#founfing').addClass('show-tab');
+	$('#token-content').removeClass('show-tab');
+	$('#token-content').addClass('hide-tab');
+} )
+
+$('#token-tab').on('click',function() {
+	$('#token-content').removeClass('hide-tab');
+	$('#token-content').addClass('show-tab');
+	$('#founding-content').removeClass('show-tab');
+	$('#founding-content').addClass('hide-tab');
+} )
 
 })(jQuery);
 
