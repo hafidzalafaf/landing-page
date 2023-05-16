@@ -30,6 +30,7 @@
 19. Newsletter
 20. Footer
 21. Preloader
+22. testimony
 
 */
 
@@ -3658,8 +3659,34 @@ label {
 }
 
 .img-w-80{
-	width: 70%;
+	width: 90%;
 }
+
+.testimony-area .icon-testimony{
+	font-size: 32px;
+	margin-bottom: 24px;
+	color: #00C4F4;
+}
+
+.testimony-area .testimony-item {
+	border-radius: 24px;
+    background: #030B15;
+    border: 1px solid #121A23;
+	transition: 0.3s ease-in-out all;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.testimony-area .testimony-item:hover {
+    border-color: transparent;
+}
+
+.testimony-area .testimony-user {
+    width: 48px;
+}
+
 
 @media( max-width : 992px) {
 	.md-reverse-col {
@@ -3716,5 +3743,26 @@ label {
 	.sm-justify-center{
 		display: flex;
 		justify-content: center;
+	}
+
+	.sm-items-center{
+		display: flex;
+		align-items: center;
+	}
+
+	.sm-flex-col{
+		flex-direction: column;
+	}
+
+	.sm-justify-text{
+		text-align: justify;
+	}
+	.choose-area .choose-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.partner-wrap ul li img {
+		width: 50%;
 	}
 }
